@@ -1,0 +1,31 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#subm {
+    border-radius: 10%;
+    background-color: blue;
+    color: white;
+    margin: 4%;
+    padding: 2%;
+    font-weight: bold;
+}
+
+#form {
+    display: block;
+    width: 60%;
+    margin: 2%;
+}
+
+#left {
+    float: left;
+}
+
+#right{
+    float: right;
+}
+
+.alert {
+    color: red;
+    font-weight: bold;
+}

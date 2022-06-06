@@ -1,0 +1,39 @@
+#green{
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+    margin-left: 45%;
+}
+
+body{
+    justify-content: center;
+    background-image: linear-gradient(to left,#446696,#965205)
+}
+
+#up{
+    padding-left: 45%;
+}
+
+#mid{
+    padding-left: 45%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+button {
+    background-color: #e1ebe8;
+    border-radius: 25%;
+    padding: 8px;
+    color: #001a00;
+}
+
+#red{
+    color: red;
+}

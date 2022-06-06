@@ -1,0 +1,97 @@
+body {
+    margin: 0rem;
+    padding: 0rem;
+    display: grid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    width: fit-content;
+    background-image: linear-gradient(to right,rgba(239, 227, 215, 0.728),rgba(19, 164, 236, 0.823));
+}
+
+#nav {
+    width: auto;
+    grid-area: nav;
+    padding-top: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+
+}
+
+nav ul li {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav ul li a {
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 25%;
+    color: black;
+    font-size: large;
+}
+
+a:hover {
+    background-color: white;
+    color: blue;
+    text-decoration: underline black;
+}
+
+header {
+    display: grid;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: fit-content;
+    background-color: #fffdd0;
+
+}
+
+#main_box {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "main rigt"
+    "main rigt"
+    ;
+    padding: 1rem;
+}
+
+#main_content {
+    grid-area: main;
+    color: rgb(238, 225, 225);
+    padding: 2rem;
+}
+
+.rightcol {
+    grid-area: rigt;
+    color: black;
+    padding: 60px;
+}
+
+#footer {
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 8pt;
+    background-color: #fffdd0;
+}
+
+#nav {
+    grid-area: nav;
+}
+
+
+p{
+    color: black;
+}
+
+h1, h2{
+    color: black;
+}
+

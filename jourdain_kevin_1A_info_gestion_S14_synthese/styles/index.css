@@ -1,0 +1,10 @@
+.alert {
+    color : red;
+    background-color: white;
+    border: 2px black solid;
+}
+
+.user {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

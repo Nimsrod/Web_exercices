@@ -1,0 +1,11 @@
+#stock {
+    border : 3px solid black;
+    color: white;
+
+}
+
+td {
+    border : 1px dotted black;
+    padding: 3%;
+    margin: 2%;
+}

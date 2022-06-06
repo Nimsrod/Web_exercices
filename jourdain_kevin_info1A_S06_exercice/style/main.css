@@ -1,0 +1,18 @@
+body {
+    background-image: linear-gradient(to left, rgb(136, 14, 14),rgb(11, 73, 155));
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+#TabNom {
+    margin-left: 49%;
+    border: 1px solid white;
+    padding: 1%;
+}
+
+.row {
+    border: 1px dotted white;
+    padding: 30% 3%;
+}
+

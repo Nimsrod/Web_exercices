@@ -1,0 +1,12 @@
+ul li {
+    color: black;
+}
+
+#main_content img {
+    width: 600px;
+    padding-left: 100px;
+}
+
+#main_content {
+    align-content: center;
+}
